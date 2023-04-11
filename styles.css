@@ -81,8 +81,9 @@ section {
 }
 .sec2 img {
     border-radius: 10px;
-    border-color: gray;
-    border-width: 100px;
+    width: auto;
+    box-shadow: 5px 5px 30px #f53a50;
+
 }
 
 .sec2 h1 {
@@ -116,7 +117,8 @@ section {
 }
 .sec2 button:hover {
     transition: .3s;
-    background-color: #c21d5f;
+    background-color:white;
+    color: #f53a50;
     box-shadow: 0px 0px 15px #Fc697b, 0px 0px 15px white;
 }
 .items {
@@ -152,7 +154,7 @@ section {
 }
 
 .grid:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 /* SECCION 2 */
 
@@ -517,8 +519,8 @@ b {
 }
 .btnsub:hover {
     transition: .3s;
-    background-color: #c94970;
-    color: white;
+    background-color:white;
+    color: #f53a50;
     box-shadow: 0px 0px 35px #c21d5f, 0px 0px 15px #f53a50;
 }
 textarea {
